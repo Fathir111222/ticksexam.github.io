@@ -1,0 +1,533 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(150, 44, 44);
+    padding: 10px;
+    height: 70px;
+}
+
+
+.logo img {
+    height: 160px;
+    margin-top: 50px;
+}
+
+
+.header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.homeheader{
+    margin-left: 200px;
+    padding: 10px;
+}
+
+
+.dropdownpromosi,
+.dropdowntiket {
+    display: none;
+    position: absolute;
+    background-color: #242222;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+.promotiontiket:hover .dropdownpromosi,
+.tiketheader:hover .dropdowntiket {
+    display: block;
+}
+
+
+.regisbtn {
+    background-color: #1f1414;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.regisbtn:hover {
+    color:rgb(151, 230, 181) ;
+    transform: scale(1.05);
+}
+
+/* Konten Tengah */
+
+.upcomingtext {
+    font-size: 50px;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    color: black;
+    background-color: blanchedalmond;
+  }
+  
+  .upcomingdesc {
+    font-size: 25px;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: black;
+    background-color: blanchedalmond;
+  }
+  
+  .listkonserupcoming {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .tiket1,
+  .tiket2,
+  .tiket3 {
+    background-color: rgb(251, 255, 250);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 330px;
+    height: 335px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  
+  .gambar1konten,
+  .gambar2konten,
+  .gambar3konten {
+    width: 100%;
+    height: 190px;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+  }
+  
+  .tiket1judul,
+  .tiket2judul,
+  .tiket3judul {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .tiket1date,
+  .tiket2date,
+  .tiket3date {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .buttontiket1,
+  .buttontiket2,
+  .buttontiket3 {
+    background-color: rgb(150, 44, 44);
+    border: none;
+    padding: 0 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 35px;
+    transition-duration: 0.8s;
+    margin-top: 40px;
+  }
+  
+  .buttontext1,
+  .buttontext2,
+  .buttontext3 {
+    color: #f9f9f9;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .buttontiket1:hover,
+  .buttontiket2:hover,
+  .buttontiket3:hover {
+    color: rgb(24, 23, 23);
+    transform: scale(1.09);
+  }
+  
+  @media (max-width: 800px) {
+    .upcomingtext {
+      font-size: 40px;
+      padding-top: 50px;
+    }
+  
+    .upcomingdesc {
+      font-size: 20px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+  
+    .tiket1,
+    .tiket2,
+    .tiket3 {
+      width: 50%;
+      height: auto;
+    }
+
+}
+  
+/* */
+    
+.listkonserupcoming2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2px;
+    margin-top: 50px;
+  }
+  
+  .gambar1konten2,
+  .gambar3konten3,
+  .gambar2konten2 {
+    width: 100%;
+    max-width: 310px;
+    height: 200px;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+  }
+  
+  .listkonserupcoming3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2px;
+    margin-top: 100px;
+  }
+  
+  .hidekonten {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2px;
+    margin-bottom: 100px;
+    display: none;
+  }
+  
+  .tiket1hide {
+    background-color: rgb(251, 255, 250);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+    height: 335px;
+    margin-right: 30px;
+  }
+  
+  .tiket2hide {
+    background-color: rgb(251, 255, 250);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+    height: 335px;
+    margin-right: 15px;
+  }
+  
+  .loadmore {
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    background-color: rgb(150, 44, 44);
+    border: none;
+    padding: 0 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 35px;
+    transition-duration: 0.8s;
+  }
+  
+  
+  .loadmoretext {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 800px) {
+    .listkonserupcoming2,
+    .listkonserupcoming3 {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .gambar1konten2,
+    .gambar3konten3,
+    .gambar2konten2 {
+      max-width: 100%;
+    }
+    
+    .tiket1hide,
+    .tiket2hide {
+      margin-right: 0;
+    }
+    
+    .loadmore {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+        margin-right: 85%;
+      }
+    
+    }
+  
+  
+  
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(150, 44, 44);
+    padding: 10px;
+    height: 10px;
+}
+
+.footertext{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+/*  On Going Page Style*/
+.covercontent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+    background-color: blanchedalmond;
+    background-size: cover;
+ background-position: center;
+  
+}
+
+.textongoin{
+    margin-top: 40px;
+    font-family: serif;
+}
+
+.textongoin1{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bold;
+    color:black
+}
+
+.textupcoming{
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: serif;
+    color:black;
+}
+
+.clickhere{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: serif;
+    color: black;
+}
+
+.buttonupcoming{
+    margin-bottom: 40px;
+}
+
+.buttonupcoming1{
+    background-color: #1f1303;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonupcoming1:hover{
+    color: rgb(150, 44, 44);
+    transform: scale(1.09);
+}
+
+.ongoing{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tiketongoin{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    
+}
+
+.tiketongoing-box{
+    margin-left: 159px;
+}
+
+.gambarsuga{
+    height: 320px;
+    width: 440px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.gambarsuga:hover{
+    transform: scale(1.09);
+}
+
+.tiketdesc{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    margin-top: 110px;
+    margin-left: 35px;
+}
+
+.judulsuga{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.ulsuga{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttonsuga{
+    background-color: rgb(150, 44, 44);
+    color: white;
+    border: none;
+    border-radius: 13px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buttonsuga:hover{
+    color: #242222;
+    transform: scale(1.09);
+}
+
+.sugaA{
+    color: white;
+}
+
+.judultopworld{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 35px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.ulworld{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gambarworld{
+    height: 330px;
+    width: 440px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.gambarworld:hover{
+    transform: scale(1.09);
+}
+
+.gambaryura{
+    height: 330px;
+    width: 440px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.gambaryura:hover{
+    transform: scale(1.09);
+}
+
+.judulyura{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 35px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.ulyura{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+

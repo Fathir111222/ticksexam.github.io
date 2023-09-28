@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Ticket</title>
+    <link rel="stylesheet" href="styleticket.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="img/Logo Revisi.png" type="icon">
+</head>
+<body>
+    <!---Header-->
+    <div class="header">
+        <div class="logo">
+            <img src="img/Logo Revisi.png" alt="">
+        </div>
+        <div class="homeheader">
+            <a href="home.html">Home</a>
+        </div>
+        <div class="tiketheader">
+            <a href="#">Ticket</a>
+            <div class="dropdowntiket">
+                <a href="UpcomingTiket.html">Upcoming Tickets</a>
+                <a href="OngoingTiket.html">OnGoing Tickets</a>
+            </div>
+        </div>
+        <div class="promotiontiket">
+            <a href="#">Promotion</a>
+            <div class="dropdownpromosi">
+                <a href="availpromo.html">Available Promos</a>
+                <a href="upcomingpromo.html">Upcoming Promos</a>
+            </div>
+        </div>
+        <div class="regis">
+            <a href="regis.html">
+                <button class="regisbtn">Registration</button>
+            </a>
+        </div>
+    </div>
+
+    <!---Konten Tengah Cover-->
+
+    <h1 class="upcomingtext">
+        Upcoming Tickets
+    </h1>
+
+    <h3 class="upcomingdesc">Upcoming concert ticket that will be available on Ticks in the future</h3>
+
+    
+
+    
+        <section class="listkonserupcoming">
+            <div class="tiket1">
+                <img src="img/konserUpcoming1.jpg" alt="" class="gambar1konten">
+                <h3 class="tiket1judul">COLDPLAY IN JAKARTA</h3>
+                <h3 class="tiket1date">November 15 2023</h3>
+                <button class="buttontiket1">
+                    <a href="coldplaydetail.html" class="buttontext1">Detail Concert </a>
+                    <hr>
+                </button>
+            </div>
+    
+            <div class="tiket3">
+                <img src="img/konserUpcoming3.jpg" alt="" class="gambar3konten">
+                <h3 class="tiket3judul">DEEP PURPLE</h3>
+                <h3 class="tiket3date">September 20 2023</h3>
+                <button class="buttontiket2">
+                    <a href="deeppurpledetail.html" class="buttontext2">Detail Concert</a>
+                </button>
+            </div>
+    
+            <div class="tiket2">
+                <img src="img/konserUpcoming2.jpg" alt="" class="gambar2konten">
+                <h3 class="tiket2judul">REX ORANGE COUNTY</h3>
+                <h3 class="tiket2date">October 14 2023</h3>
+                <button class="buttontiket3">
+                    <a href="rexdetail.html" class="buttontext3">Detail Concert</a>
+                </button>
+            </div>
+        </section>
+
+        <!-- Tiket Konser 2 -->
+
+        <section class="listkonserupcoming2">
+            <div class="tiket1">
+                <img src="img/tiketkonserupcoming4.jpg" alt="" class="gambar1konten2">
+                <h3 class="tiket1judul" style="font-style: italic;">HELLOCALAIZE</h3>
+                <h3 class="tiket1date">September 21 2023</h3>
+                <button class="buttontiket1">
+                    <a href="hellocalaizedetail.html" class="buttontext1">Detail Concert </a>
+                    <hr>
+                </button>
+            </div>
+    
+            <div class="tiket3">
+                <img src="img/tiketkonserupcoming5.jpg" alt="" class="gambar3konten3">
+                <h3 class="tiket3judul">PROJECT-D VOL 1</h3>
+                <h3 class="tiket3date">October 29 - 30 2023</h3>
+                <button class="buttontiket2">
+                    <a href="projectddetail.html" class="buttontext2">Detail Concert</a>
+                </button>
+            </div>
+    
+            <div class="tiket2">
+                <img src="img/tiketkonserupcoming6.jpg" alt="" class="gambar2konten2">
+                <h3 class="tiket2judul">SYNCHRONIZE</h3>
+                <h3 class="tiket2date">September 01 02 03 2023</h3>
+                <button class="buttontiket3">
+                    <a href="synchronizedetal.html" class="buttontext3">Detail Concert</a>
+                </button>
+            </div>
+        </section>
+
+        <section class="listkonserupcoming3">
+            <div class="hidekonten" id="hidekonten1">
+                <div class="tiket1hide">
+                    <img src="img/hidetiket1.jpg" alt="" class="gambar1konten2">
+                    <h3 class="tiket1judul">ONE OK ROCK</h3>
+                    <h3 class="tiket1date">September 29 2023</h3>
+                    <button class="buttontiket1">
+                        <a href="#" class="buttontext1">Detail Concert </a>
+                        <hr>
+                    </button>
+                </div>
+        
+                <div class="tiket3">
+                    <img src="img/hidetiket3.jpg" alt="" class="gambar3konten3">
+                    <h3 class="tiket3judul">WESTLIFE</h3>
+                    <h3 class="tiket3date">February 11 2023</h3>
+                    <button class="buttontiket2">
+                        <a href="#" class="buttontext2">Detail Concert</a>
+                    </button>
+                </div>
+
+                <div class="tiket2hide">
+                    <img src="img/hidetiket2.jpg" alt="" class="gambar2konten2">
+                    <h3 class="tiket2judul">SHEILA ON 7</h3>
+                    <h3 class="tiket2date">May 27 2023</h3>
+                    <button class="buttontiket3">
+                        <a href="#" class="buttontext3">Detail Concert</a>
+                    </button>
+                </div>
+            </div>
+            
+        <button class="loadmore" onclick="munculUpcoming()">
+            <h3 class="loadmoretext">Load More</h4>
+        </button>
+        </section>
+
+        <footer>
+            <h3 class="footertext">&copy; 2023 Ticks. All rights reserved.</h3>
+        </footer>
+</body>
+</html>

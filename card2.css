@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+*{
+  box-sizing: content-box;
+}
+
+body, html {
+   margin: 0;
+ width: 100%;
+height: 100%;
+   padding: 0;
+   
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template: 400px / auto auto auto;
+  column-gap: 10px;
+  row-gap: 2rem;
+  max-width: 1020px;
+}
+
+.card--1 .card__img,
+.card--1 .card__img--hover {
+  background-image: url('https://img.jakpost.net/c/2019/06/12/2019_06_12_74202_1560308728._large.jpg');
+}
+
+.card--2 .card__img,
+.card--2 .card__img--hover {
+  background-image: url('https://cdn.londonandpartners.com/visit/london-organisations/alexandra-palace/92923-640x360-alexandra-palace-gig-640.jpg');
+}
+
+.card--3 .card__img,
+.card--3 .card__img--hover {
+  background-image: url('https://economictimes.indiatimes.com/thumb/msid-67553716,width-1200,height-900,resizemode-4,imgsize-227180/music-concert.jpg?from=mdr');
+}
+
+.card--4 .card__img,
+.card--4 .card__img--hover {
+  background-image: url('https://whatsnewindonesia.com/sites/default/files/styles/1280x800/public/2022-09/hanny-naibaho-aWXVxy8BSzc-unsplash-1024x683.jpg?itok=h0xCpdRD');
+}
+
+.card--5 .card__img,
+.card--5 .card__img--hover {
+  background-image: url('https://imgsrv2.voi.id/rFTb6EOLTk_qqqhoQfA3DGC7otw_pY01YVEERI7AF38/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8xMzIzNDRlOS1lZDU3LTRhMjItODM3OS03NmQwY2VkNDQyMjAvMjAxOTExMjgxNDU4LW1haW4uY3JvcHBlZF8xNTc0OTI3OTIwLmpwZw.jpg');
+}
+
+.card--6 .card__img,
+.card--6 .card__img--hover {
+  background-image: url('https://cc-prod.scene7.com/is/image/CCProdAuthor/concert-photography_P1_900x420?$pjpeg$&jpegSize=200&wid=900');
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1020px) {
+  .cards {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cards {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cards {
+    grid-template-columns: 100%;
+  }
+}
+
+
+
+
+
+.card__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+  
+}
+
+.card__info-hover {
+    position: absolute;
+    padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0;
+  
+}
+.card {
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+    width: 20rem;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.card__info {
+z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+   padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  color: #868686;
+  cursor: pointer;
+}
+
+.card__category:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    /* transform: ease-in-out 0.5s; */
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card__by {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
+}
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.promo-button {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.promo-button:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.promo-button:before,
+.promo-button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.promo-button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.promo-button:hover:before,
+.promo-button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}

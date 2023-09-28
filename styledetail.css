@@ -1,0 +1,297 @@
+body{
+    background-image: url(img/ongoing1.jpg);
+}
+
+.containerdetail{
+    background-color: rgb(252, 234, 234);
+    height: 970px;
+    margin-top: 40px;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+    border-radius: 15px;
+}
+
+.penampungisidetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.juduldetail{
+    display: flex;
+    justify-content: center;
+}
+
+.juduldetail1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.gambardetail{
+    display: flex;
+    justify-content: center;
+}
+
+.gambardetail1{
+    height: 400px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+}
+
+.gambardetail1:hover{
+    transform: scale(1.09);
+}
+
+.lagudetail{
+    display: flex;
+    justify-content: center;
+}
+
+.lagudetail1{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.listlagu{
+    display: flex;
+    justify-content: center;
+}
+
+.listlagu1{
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.lokasidetail{
+    display: flex;
+    justify-content: center;
+}
+
+.lokasidetail1{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 33px;
+}
+
+.date-time{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.date-time-detail{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+.price{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+.buttonbuy-back{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.buttonback{
+    background-color: rgb(150, 44, 44);
+    color: white;
+    border: none;
+    border-radius: 13px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.buttonbuy{
+    background-color: rgb(150, 44, 44);
+    color: white;
+    border: none;
+    border-radius: 13px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buttonbuy-aja{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 6px;
+}
+
+.buttonbuy:hover{
+    transform: scale(1.09);
+}
+
+.buttonback:hover{
+    transform: scale(1.09);
+}
+
+
+/* Detail No 2 */
+.detail-ke-2{
+    background-image: url(img/coverbuatdetailke2.png);
+}
+
+/* Detail No 3 */
+.detail-ke-3{
+    background-image: url(img/ongoing3.jpg);
+}
+
+.detailcoldplay{
+    background-image: url(img/konserUpcoming1.jpg);
+}
+
+.detailwoke{
+    background-image: url(img/bestseller1.jpg);
+}
+
+.detailcigarette{
+    background-image: url(img/bestseller2.jpg);
+}
+
+.detailbp{
+    background-image: url(img/bestseller3.jpg);
+}
+
+.detaildeep{
+    background-image: url(img/konserUpcoming3.jpg);
+}
+
+.detailrex{
+    background-image: url(img/konserUpcoming2.jpg);
+}
+
+.detailsynch{
+    background-image: url(img/tiketkonserupcoming6.jpg);
+}
+
+.detailprojectd{
+    background-image: url(img/tiketkonserupcoming5.jpg);
+}
+
+.detailhello{
+    background-image: url(img/tiketkonserupcoming4.jpg);
+}
+
+.detailsuga{
+    background-image: url(img/ongoing1.jpg);
+}
+
+.gambardetailhello{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.gambardetail3{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.gambardetailcoldplay{
+    height: 450px;
+    width: 800px;
+    margin-top: 30px;
+}
+
+.gambardetailwoke{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.gambardetailcigarette{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.gambardetailbp{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.gambardetaildeep{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.gambardetailrex{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.gambardetailsynch{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.gambardetailprojectd{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.date-timeyr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.date-time-detailyr{
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+.priceyr{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    color: brown;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+
+.containerdetail3{
+    background-color: rgb(252, 234, 234);
+    height: 1000px;
+    margin-top: 40px;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+    border-radius: 15px;
+}
+
+
+
+
